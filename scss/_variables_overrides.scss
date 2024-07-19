@@ -1,0 +1,16 @@
+// scss-docs-start gray-color-variables
+$purple:  #6f42c1 !default;
+$indigo:  #6610f2 !default;
+
+// scss-docs-end gray-color-variables
+
+// scss-docs-start color-variables
+$primary:   $purple;
+$secondary: $indigo;
+// scss-docs-end color-variables
+
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded:  false;
+$enable-shadows:  true;
+
+$offcanvas-zindex :1051;
